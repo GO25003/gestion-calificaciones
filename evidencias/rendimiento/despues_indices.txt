@@ -1,0 +1,34 @@
+                                              QUERY PLAN                                              
+------------------------------------------------------------------------------------------------------
+ Seq Scan on estudiantes  (cost=0.00..1.02 rows=1 width=33) (actual time=0.010..0.010 rows=1 loops=1)
+   Filter: ((apellidos)::text = 'Perez Lopez'::text)
+   Rows Removed by Filter: 1
+   Buffers: shared hit=1
+ Planning:
+   Buffers: shared hit=140 read=1
+ Planning Time: 0.541 ms
+ Execution Time: 0.037 ms
+(8 rows)
+
+                                              QUERY PLAN                                              
+------------------------------------------------------------------------------------------------------
+ Seq Scan on asignaturas  (cost=0.00..1.01 rows=1 width=29) (actual time=0.005..0.005 rows=1 loops=1)
+   Filter: ((nombre)::text = 'Matematica II'::text)
+   Buffers: shared hit=1
+ Planning:
+   Buffers: shared hit=49 read=1
+ Planning Time: 0.149 ms
+ Execution Time: 0.010 ms
+(7 rows)
+
+                                                                         QUERY PLAN                                                                         
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Seq Scan on calificaciones  (cost=0.00..1.06 rows=4 width=21) (actual time=0.049..0.051 rows=4 loops=1)
+   Filter: ((registrada_en >= '2026-01-01 00:00:00+00'::timestamp with time zone) AND (registrada_en < '2027-01-01 00:00:00+00'::timestamp with time zone))
+   Buffers: shared hit=1
+ Planning:
+   Buffers: shared hit=80 read=1
+ Planning Time: 0.462 ms
+ Execution Time: 0.058 ms
+(7 rows)
+

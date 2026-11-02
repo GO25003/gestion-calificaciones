@@ -1,0 +1,19 @@
+  carnet  |     nombres      |    apellidos     | grupo | nota_final |  estado   
+----------+------------------+------------------+-------+------------+-----------
+ AL202603 | Ana Lucia        | Hernandez Lopez  | GT01  |       8.40 | APROBADO
+ CM202604 | Carlos Mauricio  | Martinez Garcia  | GT01  |       6.60 | APROBADO
+ DV202607 | Daniel Alejandro | Vasquez Torres   | GT01  |       4.40 | REPROBADO
+ ER202611 | Eduardo Rafael   | Ramirez Cruz     | GT01  |       8.60 | APROBADO
+ FH202613 | Fernando Antonio | Morales Diaz     | GT01  |       7.00 | APROBADO
+ JM202606 | Jose Manuel      | Gonzalez Flores  | GT01  |       4.60 | REPROBADO
+ JP202601 | Juan Carlos      | Perez Lopez      | GT01  |       7.40 | APROBADO
+ KF202610 | Karla Fernanda   | Sanchez Perez    | GT01  |       9.00 | APROBADO
+ LG202608 | Laura Gabriela   | Lopez Martinez   | GT01  |       5.40 | REPROBADO
+ ML202602 | Maria Fernanda   | Lopez Garcia     | GT01  |       4.60 | REPROBADO
+ MR202609 | Miguel Angel     | Rivera Hernandez | GT01  |       7.40 | APROBADO
+ NP202612 | Natalia Beatriz  | Castro Gomez     | GT01  |       9.40 | APROBADO
+ PC202614 | Paola Andrea     | Flores Romero    | GT01  |            | PENDIENTE
+ RH202615 | Ricardo Alberto  | Hernandez Molina | GT01  |            | PENDIENTE
+ SP202605 | Sofia Isabel     | Perez Ramirez    | GT01  |            | PENDIENTE
+(15 rows)
+

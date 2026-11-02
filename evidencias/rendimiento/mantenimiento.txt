@@ -1,0 +1,38 @@
+        base_datos         | tamano  
+---------------------------+---------
+ gestion_notas_rendimiento | 8703 kB
+(1 row)
+
+           tabla           | tamano_total | tamano_datos | tamano_indices 
+---------------------------+--------------+--------------+----------------
+ estudiantes               | 104 kB       | 8192 bytes   | 96 kB
+ calificaciones            | 80 kB        | 8192 bytes   | 64 kB
+ docentes                  | 80 kB        | 8192 bytes   | 64 kB
+ evaluaciones              | 72 kB        | 8192 bytes   | 64 kB
+ matriculas                | 72 kB        | 8192 bytes   | 64 kB
+ grupos                    | 72 kB        | 8192 bytes   | 64 kB
+ asignaturas               | 64 kB        | 8192 bytes   | 48 kB
+ ciclos_academicos         | 56 kB        | 8192 bytes   | 48 kB
+ periodos_calificacion     | 56 kB        | 8192 bytes   | 48 kB
+ carreras                  | 56 kB        | 8192 bytes   | 48 kB
+ prerrequisitos_asignatura | 8192 bytes   | 0 bytes      | 8192 bytes
+(11 rows)
+
+           tabla           | registros_aproximados | registros_eliminados 
+---------------------------+-----------------------+----------------------
+ asignaturas               |                     1 |                    0
+ calificaciones            |                     4 |                    0
+ carreras                  |                     1 |                    0
+ ciclos_academicos         |                     1 |                    0
+ docentes                  |                     1 |                    0
+ estudiantes               |                     2 |                    2
+ evaluaciones              |                     2 |                    0
+ grupos                    |                     1 |                    0
+ matriculas                |                     2 |                    0
+ periodos_calificacion     |                     1 |                    0
+ prerrequisitos_asignatura |                     0 |                    0
+(11 rows)
+
+VACUUM
+VACUUM
+VACUUM
