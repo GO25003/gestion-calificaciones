@@ -1,0 +1,29 @@
+  carnet  |   nombres   |  apellidos  |    materia    |   evaluacion   | nota 
+----------+-------------+-------------+---------------+----------------+------
+ JP202601 | Juan Carlos | Perez Lopez | Matematica II | Primer parcial | 8.00
+ JP202601 | Juan Carlos | Perez Lopez | Matematica II | Examen final   | 7.00
+(2 rows)
+
+  carnet  |   nombres   |  apellidos  |  asignatura   | nota_final | resultado 
+----------+-------------+-------------+---------------+------------+-----------
+ JP202601 | Juan Carlos | Perez Lopez | Matematica II |       7.40 | APROBADA
+(1 row)
+
+  ciclo  |  asignatura   | promedio 
+---------+---------------+----------
+ 2026-01 | Matematica II |     6.90
+(1 row)
+
+  carnet  |     nombres      |    apellidos    |  asignatura   | nota_final 
+----------+------------------+-----------------+---------------+------------
+ DV202607 | Daniel Alejandro | Vasquez Torres  | Matematica II |       4.40
+ ML202602 | Maria Fernanda   | Lopez Garcia    | Matematica II |       4.60
+ JM202606 | Jose Manuel      | Gonzalez Flores | Matematica II |       4.60
+ LG202608 | Laura Gabriela   | Lopez Martinez  | Matematica II |       5.40
+(4 rows)
+
+  carnet  |   nombres   |  apellidos  |  ciclo  |  asignatura   | nota_final | resultado 
+----------+-------------+-------------+---------+---------------+------------+-----------
+ JP202601 | Juan Carlos | Perez Lopez | 2026-01 | Matematica II |       7.40 | APROBADA
+(1 row)
+
